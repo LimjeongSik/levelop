@@ -1,3 +1,13 @@
+import Head from "next/head";
+import LimitScreen from "@/components/layouts/LimitScreen";
+
 export default function Main() {
-    return <div>hello world</div>;
+    return (
+        <>
+            <Head>
+                <title>Levelop</title>
+            </Head>
+            <LimitScreen>hello world</LimitScreen>
+        </>
+    );
 }

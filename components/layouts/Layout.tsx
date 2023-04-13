@@ -1,11 +1,9 @@
 import { GlobalStyle } from "@/styles/GlobalStyle";
 import styled from "styled-components";
+// Props Interface
+import { ChildrenProps } from "../../interface/index";
 
-interface Props {
-    children: React.ReactNode;
-}
-
-export default function Layout({ children }: Props) {
+export default function Layout({ children }: ChildrenProps) {
     return (
         <>
             <GlobalStyle />

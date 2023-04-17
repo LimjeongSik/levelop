@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
-import LimitScreen from "./LimitScreen";
+import LimitScreen from "../LimitScreen";
 
 export default function Header() {
     return (
